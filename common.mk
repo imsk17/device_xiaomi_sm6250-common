@@ -443,12 +443,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.rtt.xml
 
 # WiFi Display
-PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_PACKAGES += \
+#    libnl \
+#    libwfdaac_vendor
+#
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
